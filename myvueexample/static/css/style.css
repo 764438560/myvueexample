@@ -167,6 +167,12 @@
   justify-content: space-between;
   padding: 10px;
 }
+.goodsWrap a{
+  width:100%;
+  height:100%;
+  display: flex;
+  justify-content: space-between;
+}
 .itemLeft{
   width:100px;
   height:100px;
@@ -221,7 +227,7 @@ p.info{
   top:0;
   bottom:0;
   width:100%;
-  background: green;
+  background: #fff;
 }
 .arrowLeave{
   position: absolute;
@@ -237,6 +243,11 @@ p.info{
 .carousel{
   width:100%;
   height:120px;
-  background: antiquewhite;
+  /*background: antiquewhite;*/
 }
+.carousel{
+  width:100%;
+  height:200px;
+}
+
 /* 商品详情结束 */
